@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf dist && webpack"
+    "build": "rm -rf dist && webpack --mode development",
+    "build:production": "rm -rf dist && webpack --mode production"
   },
   "license": "ISC",
   "dependencies": {
